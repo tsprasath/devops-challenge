@@ -34,6 +34,11 @@ service:
   type: NodePort
   port: 3000
 
+urls:
+  dv_url: "http://acceleration-dv:3001/dv"
+  a_url: "http://acceleration-a:3002/a"
+  
+  
 ingress:
   enabled: true
   annotations: 

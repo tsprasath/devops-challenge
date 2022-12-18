@@ -1,9 +1,9 @@
 FROM node:10
 COPY . .
-WORKDIR /acceleration-a
+WORKDIR /acceleration-dv
 
 RUN yarn install;\
     yarn build
 
-EXPOSE 3000
+EXPOSE 3001
 CMD ["yarn", "dev"]
