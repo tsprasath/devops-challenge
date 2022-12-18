@@ -1,7 +1,6 @@
-FROM node:10
-COPY . .
+FROM node:10.14.2-alpine
 WORKDIR /acceleration-calc
-
+COPY . .
 RUN yarn install;\
     yarn build
 
