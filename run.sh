@@ -17,9 +17,9 @@ helm install acceleration-calc ./helm/acceleration-calc
 
 
 DOCKER_REGISTRY_SERVER=docker.io
-DOCKER_USER=tsprasath91
-DOCKER_EMAIL=tsprasath91@gmail.com
-DOCKER_PASSWORD=Beta@123
+DOCKER_USER=xxxx
+DOCKER_EMAIL=xxxx
+DOCKER_PASSWORD=xxx
 
 kubectl create secret docker-registry myregistrykey \
   --docker-server=$DOCKER_REGISTRY_SERVER \
