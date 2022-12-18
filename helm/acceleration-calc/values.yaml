@@ -5,8 +5,8 @@
 replicaCount: 2
 
 image:
-  repository: tsprasath91/ac-calc
-  pullPolicy: IfNotPresent
+  repository: tsprasath91/ac-calc:latest
+  pullPolicy: Always
 
 imagePullSecrets: 
   - name: myregistrykey
