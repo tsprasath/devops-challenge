@@ -1,0 +1,9 @@
+FROM node:10
+COPY . .
+WORKDIR /acceleration-a
+
+RUN yarn install;\
+    yarn build
+
+EXPOSE 3001
+CMD ["yarn", "dev"]
