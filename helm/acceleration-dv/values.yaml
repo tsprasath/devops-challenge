@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: acceleration-dv
+  repository: tsprasath91/ac-dv
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []

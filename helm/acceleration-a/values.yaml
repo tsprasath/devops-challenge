@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: acceleration-a
+  repository: tsprasath91/ac-a
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []

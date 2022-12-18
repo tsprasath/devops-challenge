@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: acceleration-calc
+  repository: tsprasath91/ac-calc
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -38,7 +38,7 @@ urls:
   dv_url: "http://acceleration-dv:3001/dv"
   a_url: "http://acceleration-a:3002/a"
   
-  
+
 ingress:
   enabled: true
   annotations: 
